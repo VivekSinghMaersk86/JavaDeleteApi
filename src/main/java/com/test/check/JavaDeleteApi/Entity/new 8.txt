@@ -1,0 +1,33 @@
+Class Organization{
+
+getEmployees()- > return list of employee();
+}
+
+
+Class Employee{
+
+getSalary() - Return Salry of Employee();
+
+
+}
+ Organization org=new Organization();
+
+    double Salary =0.0;
+
+     List list =  org.getEmployees();
+
+    for(int i=0 ; i < list.size() ;i++){
+
+     Employee Employeei = list.get(i);
+	 
+	 Salary += Employeei.getSalary();
+	
+	}
+	
+	System.out.println(Salary);
+	
+	}
+		
+	String EmpName = List.Stream().forEach(e -> System.out.println(list.get(i)));
+	
+	double Salary += Employeei.getSalary();
